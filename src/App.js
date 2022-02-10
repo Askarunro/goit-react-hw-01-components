@@ -1,21 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import AppBar from './components/AppBar/AppBar';
+import user from './path/to/user';
+import Profile from './components/Profile/Profile';
 
-const navLink = [
-  {
-    href: "/univesity",
-    text: "university",
-  },
-  {
-    href: "/univesity",
-    text: "university",
-  }
-];
 
 
 function App() {
-    return <AppBar />;
+    return <Profile
+    username={user.username}
+    tag={user.tag}
+    location={user.location}
+    avatar={user.avatar}
+    stats={user.stats}
+  />;
 }
 
 export default App;
