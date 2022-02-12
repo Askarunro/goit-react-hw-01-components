@@ -9,7 +9,6 @@ import StatisticList from './components/StatisticList/StatisticList';
 import FriendList from './components/FriendList/FriendList';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
-console.log(data);
 function App() {
   return (
     <div>
