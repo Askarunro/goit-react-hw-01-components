@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 30px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 10px -2px;
+  padding: 10px 20px;
+  max-width: 300px;
+}
+
+.state {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  border-color: inherit;
+  background-color: red;
+}
+
+.stateOnline {
+  composes: state;
+  background-color: green;
+}
